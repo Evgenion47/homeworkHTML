@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>task4</title>
+    </head>
+    <body>
+        <script>
+            var x, y, storedPass;
+            storedPass=7123;
+            if (prompt("enter your password",'')!=storedPass) {
+                alert("invalid password!");
+            }
+            else{
+                alert("yr welcome :P");
+            }
+            x=parseInt(prompt("Введите значение х",''));
+            y=parseInt(prompt("Введите значение у",''));
+            if(x==y){
+                alert("numbers are equal!");
+            }
+            else {
+                if(x>y){
+                    alert("Максимальное число - x");
+                }
+                else{
+                    alert("Максимальное число - y");
+                }
+            }
+            </script>
+    </body>
+</html>
